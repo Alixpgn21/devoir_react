@@ -1,0 +1,60 @@
+body {
+  background-color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.carte {
+  width: 320px;
+  padding: 25px;
+}
+
+.sombre {
+  background-color: #001331 !important;
+  color: white !important;
+}
+
+.recherche {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  outline: none;
+  background: transparent;
+  color: inherit;
+  font-size: 16px;
+}
+
+.label-ville {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: bold;
+}
+
+.sombre .label-ville {
+  color: #94a3b8;
+}
+
+.temp-zone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.degres {
+  font-size: 55px;
+  font-weight: 800;
+  margin: 0;
+  color: #3a5e90;
+}
+
+.emoji-meteo {
+  font-size: 90px;
+}
+
+.habits {
+  font-size: 14px;
+}
